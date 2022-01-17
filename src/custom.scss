@@ -1,0 +1,40 @@
+@import '/node_modules/bootstrap/scss/bootstrap.scss';
+
+.app-container {
+  padding-top: 40px;
+  min-width: 100%;
+}
+
+.left-nav-container {
+  position: fixed;
+  min-height: 100%;
+  top: 0;
+  width: 320px;
+  background: #2c2b3d;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.search-box-container {
+  width: 240px;
+}
+
+.results-container {
+  padding-left: 350px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.link {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.result-card {
+  padding: 10px 10px 10px 10px;
+  width: 450px;
+  min-height: 135px;
+}
+
