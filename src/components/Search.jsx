@@ -26,7 +26,7 @@ export const Search = () => {
     fetchData();
   }, [url]);
 
-  // TODO: Error state isn't working properly, left nav doesn't load
+  // TODO: Error state isn't working properly when left nav doesn't load
   return (
     <>
       <div className = "left-nav-container">
