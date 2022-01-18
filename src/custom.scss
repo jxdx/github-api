@@ -3,6 +3,8 @@
 .app-container {
   padding-top: 40px;
   min-width: 100%;
+  background: #1c2129;
+  color: #aebac7;
 }
 
 .left-nav-container {
@@ -10,14 +12,18 @@
   min-height: 100%;
   top: 0;
   width: 320px;
-  background: #2c2b3d;
+  background: #23272e;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   padding-top: 50px;
+  color: #aebac7;
+  // align-items: center;
+  padding-left: 30px;
 }
 
 .search-box-container {
   width: 240px;
+  color: #aebac7;
 }
 
 .results-container {
@@ -38,3 +44,6 @@
   min-height: 135px;
 }
 
+.repo-title {
+  padding-left: 350px;
+}
